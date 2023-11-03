@@ -56,16 +56,3 @@ for timestamp, data in pcap:
            
         except:
             pass
-
-    # if tcp.sport == 80:
-    #     try:
-    #         http = dpkt.http.Response(tcp.data)
-    #         find_word(s, http.method)
-    #         find_word(s, http.version)
-    #         find_word(s, http.uri)
-    #         find_header(s, http.headers)
-    #         find_object(s, http.body)
-            
-    #     except:
-    #         pass
-
